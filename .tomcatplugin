@@ -5,7 +5,7 @@
     <reloadable>true</reloadable>
     <redirectLogger>true</redirectLogger>
     <updateXml>true</updateXml>
-    <warLocation>C:\Users\Roc\Desktop\barcelonabicing.war</warLocation>
+    <warLocation>C:\Users\Roc Boronat\Desktop\wicing.war</warLocation>
     <extraInfo></extraInfo>
-    <webPath>/barcelonabicing</webPath>
+    <webPath>/wicing</webPath>
 </tomcatProjectProperties>
