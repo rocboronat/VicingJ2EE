@@ -34,7 +34,6 @@ import java.util.Map;
 import cat.pipo.bicing.bean.Station;
 import cat.pipo.bicing.bean.StationTiny;
 import cat.pipo.bicing.cities.DAO;
-import cat.pipo.errorLogger.api.SimpleLogThread;
 
 /** Classe per a recuperar l'HTML de la web de la Girocleta, parsejar-lo, i crear Beans Station.
  *
@@ -120,7 +119,6 @@ public class GironaDAO extends DAO {
 				}
 			}
 		} catch (Exception e) {
-			SimpleLogThread.send(e,0L,"Error Girona DAO");
 			throw e;
 		}
 
@@ -147,17 +145,7 @@ public class GironaDAO extends DAO {
 				// Process line...
 				resp.append(line);
 			}
-		} catch (MalformedURLException e) {
-			SimpleLogThread.send(e, 0L, "ERROR URL");
-			return null;
-		} catch (SocketTimeoutException e) {
-			SimpleLogThread.send(e, 0L, "ERROR TIMEOUT");
-			return null;
-		} catch (IOException e) {
-			SimpleLogThread.send(e, 0L, "ERROR IO");
-			return null;
-		}  catch (Exception e) {
-			SimpleLogThread.send(e, 0L, "ERROR");
+		} catch (Exception e) {
 			return null;
 		} finally {
 			if (rd != null) {

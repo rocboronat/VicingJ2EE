@@ -3,7 +3,6 @@ package cat.pipo.bicing.cities.spain.barcelona;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Map;
 
 import cat.pipo.bicing.bean.Station;
 import cat.pipo.bicing.bean.StationTiny;

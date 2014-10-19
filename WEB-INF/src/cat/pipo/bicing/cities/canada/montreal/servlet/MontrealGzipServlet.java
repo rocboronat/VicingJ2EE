@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import cat.pipo.bicing.cities.canada.montreal.MontrealGlobals;
-import cat.pipo.bicing.cities.spain.barcelona.BarcelonaGlobals;
 
 
 /**

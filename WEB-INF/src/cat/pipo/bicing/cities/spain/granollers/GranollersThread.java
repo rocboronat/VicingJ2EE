@@ -2,8 +2,6 @@ package cat.pipo.bicing.cities.spain.granollers;
 
 import java.util.Date;
 
-import cat.pipo.bicing.Globals;
-
 public class GranollersThread extends Thread{
 
 	@Override
