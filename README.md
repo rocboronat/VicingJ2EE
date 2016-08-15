@@ -8,10 +8,6 @@ The Barcelona URL's that you can start parsing are:
 http://tickettoride.fewlaps.com:8080/wicing/bcnJ
 http://tickettoride.fewlaps.com:8080/wicing/bcnJ?all=1
 
-If you're interested in Montreal QC Bixi status, there are its URLs:
-http://tickettoride.fewlaps.com:8080/wicing/moJ
-http://tickettoride.fewlaps.com:8080/wicing/moJ?all=1
-
 And here's a human readable version of the parsed data:
 http://tickettoride.fewlaps.com:8080/wicing/string
 
